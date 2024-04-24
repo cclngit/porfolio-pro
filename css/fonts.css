@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "HostGrotesk";
+  src: url("/fonts/host_grotesk/HostGrotesk-Black.woff2") format('woff2');
+  font-weight: 900; /* Use font-weight for bold */
+  font-style: normal; /* Default to normal if not italic */
+}
+
+@font-face {
+  font-family: "HostGrotesk";
+  src: url("/fonts/host_grotesk/HostGrotesk-BlackItalic.woff2") format('woff2');
+  font-weight: 900; /* Use font-weight for bold */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HostGrotesk";
+  src: url("/fonts/host_grotesk/HostGrotesk-Bold.woff2") format('woff2');
+  font-weight: 700; /* Use font-weight for bold */
+  font-style: normal; /* Default to normal if not italic */
+}
+
+@font-face {
+  font-family: "HostGrotesk";
+  src: url("/fonts/host_grotesk/HostGrotesk-BoldItalic.woff2") format('woff2');
+  font-weight: 700; /* Use font-weight for bold */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HostGrotesk";
+  src: url("/fonts/host_grotesk/HostGrotesk-Italic.woff2") format('woff2');
+  font-weight: 400; /* Use font-weight for regular */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HostGrotesk";
+  src: url("fonts/host_grotesk/HostGrotesk-Italic[wght].woff2") format('woff2');
+  font-weight: 400; /* Use font-weight for 400 weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HostGrotesk";
+  src: url("/fonts/host_grotesk/HostGrotesk-Light.woff2") format('woff2');
+  font-weight: 300; /* Use font-weight for light */
+  font-style: normal; /* Default to normal if not italic */
+}
+
+@font-face {
+  font-family: "HostGrotesk";
+  src: url("/fonts/host_grotesk/HostGrotesk-LightItalic.woff2") format('woff2');
+  font-weight: 300; /* Use font-weight for light */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HostGrotesk";
+  src: url("/fonts/host_grotesk/HostGrotesk-Medium.woff2") format('woff2');
+  font-weight: 500; /* Use font-weight for medium */
+  font-style: normal; /* Default to normal if not italic */
+}
+
+@font-face {
+  font-family: "HostGrotesk";
+  src: url("/fonts/host_grotesk/HostGrotesk-MediumItalic.woff2") format('woff2');
+  font-weight: 500; /* Use font-weight for medium */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HostGrotesk";
+  src: url("/fonts/host_grotesk/HostGrotesk-Regular.woff2") format('woff2');
+  font-weight: 400; /* Use font-weight for regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HostGrotesk";
+  src: url("/fonts/host_grotesk/HostGrotesk[wght].woff2") format('woff2');
+  font-weight: 400; /* Use font-weight for 400 weight */
+  font-style: normal;
+}

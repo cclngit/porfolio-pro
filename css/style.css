@@ -1,0 +1,568 @@
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+body,
+html {
+    padding: 3px 3px 3px 3px;
+
+    font-family: 'HostGrotesk', sans-serif;
+    font-size: 11pt;
+    text-align: center;
+
+}
+
+div.mainpage {
+    position: relative;
+    display: table;
+
+    width: 1080px;
+    height: 3150px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+
+    /*border-width: 2px;
+    border-color: #840000;
+    border-style: solid;*/
+
+    background-image: url('../images/background.svg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: white;
+
+    text-align: center;
+    z-index: 0;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*On top of everything*/
+    z-index: 1000;
+
+}
+
+header {
+    position: absolute;
+    top: 15px;
+    /* right: 200px; */
+    left: 20px;
+    padding: 10px 245px;
+    display: flex;
+    /* float: left; */
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: rgba(132, 0, 0, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.logo {
+    position: relative;
+    float: left;
+    right: 200px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    float: right;
+    left: 200px;
+}
+
+header ul li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+header ul li a {
+    color: #840000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+
+header ul li a:hover {
+    background: white;
+    color: #840000;
+}
+
+.intro {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: space-between;
+    height: 520px;
+    padding: 110px;
+    color: #840000;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.intro h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.intro-image {
+
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    padding: 10px 30px;
+    align-items: center;
+    border-radius: 63px;
+    box-shadow: 0px 0px 0px 2px rgb(132, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.intro-image img {
+    width: 159px;
+    height: auto;
+    border-radius: 127px;
+
+}
+
+.scroll a img {
+    width: 50px;
+    height: auto;
+}
+
+.scroll a img:hover {
+
+    background: #8400004d;
+    color: #840000;
+    border-radius: 9px;
+}
+
+.project_1 {
+    position: relative;
+    top: 148px;
+}
+
+.project_1 div {
+    position: absolute;
+    right: 150px;
+    left: 150px;
+    padding: 20px 50px 40px 190px;
+    /*box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);*/
+    border-radius: 40px;
+    background-color: rgba(132, 0, 0, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+    color: #840000;
+    text-align: start;
+}
+
+.project_1 div h3 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.project_1 div p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: 174px;
+}
+
+.project_1 .mtr_md {
+    position: absolute;
+    top: -110px;
+    left: -4px;
+    /* animation only when cursor hover on the image */
+    transition: transform 0.5s;
+}
+
+.project_1 .mtr_md:hover {
+    transform: scale(1.1);
+}
+
+.project_1 .project_1-explore {
+    width: 163px;
+    height: auto;
+    position: absolute;
+    top: 71px;
+    left: 737px;
+}
+
+.project_1 .project_1-explore:hover {
+
+    background: #8400004d;
+    color: #840000;
+    border-radius: 9px;
+}
+
+
+.project_2 {
+    position: relative;
+    top: 441px;
+}
+
+.project_2 div {
+    position: absolute;
+    right: 150px;
+    left: 150px;
+    padding: 30px 33px 50px 241px;
+    /*box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);*/
+    border-radius: 40px;
+    background-color: rgba(132, 0, 0, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+    color: #840000;
+    text-align: start;
+}
+
+.project_2 div h3 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.project_2 div p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: 174px;
+}
+
+.project_2 .mtr_c3 {
+    position: absolute;
+    top: -98px;
+    left: 730px;
+    /* animation only when cursor hover on the image */
+    transition: transform 0.5s;
+}
+
+.project_2 .mtr_c3:hover {
+    transform: scale(1.1);
+}
+
+.project_2 .project_2-explore {
+    width: 163px;
+    height: auto;
+    position: absolute;
+    top: 70px;
+    left: 180px;
+}
+
+.project_2 .project_2-explore:hover {
+
+    background: #8400004d;
+    color: #840000;
+    border-radius: 9px;
+}
+
+.project_3 {
+    position: relative;
+    top: 730px;
+}
+
+.project_3 div {
+    position: absolute;
+    right: 150px;
+    left: 150px;
+    padding: 20px 50px 40px 190px;
+    /*box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);*/
+    border-radius: 40px;
+    background-color: rgba(132, 0, 0, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+    color: #840000;
+    text-align: start;
+}
+
+.project_3 div h3 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.project_3 div p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: 174px;
+}
+
+.project_3 .mtr_sttt {
+    position: absolute;
+    top: -133px;
+    left: -1px;
+    width: 422px;
+    /* animation only when cursor hover on the image */
+    transition: transform 0.5s;
+}
+
+.project_3 .mtr_sttt:hover {
+    transform: scale(1.1);
+}
+
+.project_3 .project_3-explore {
+    width: 163px;
+    height: auto;
+    position: absolute;
+    top: 71px;
+    left: 737px;
+}
+
+.project_3 .project_3-explore:hover {
+
+    background: #8400004d;
+    color: #840000;
+    border-radius: 9px;
+}
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade-in animation */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.back_line {
+    position: absolute;
+    top: 988px;
+    z-index: -1;
+    left: 240px;
+}
+
+.more_projects-img {
+    position: absolute;
+    top: 1788px;
+    left: 450px;
+}
+
+.more_projects-img:hover {
+
+    background: #8400004d;
+    color: #840000;
+    border-radius: 9px;
+}
+
+.academic {
+    position: absolute;
+    top: 2049px;
+    left: 99px;
+    padding: 17px 174px 6px 28px;
+    border-radius: 27px;
+    background-color: rgba(132, 0, 0, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+    color: #840000;
+    text-align: start;
+
+}
+
+.academic h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-style: normal;
+}
+
+.academic p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.professional {
+    position: absolute;
+    top: 2342px;
+    left: 99px;
+    padding: 16px 81px 3px 29px;
+    border-radius: 27px;
+    background-color: rgba(132, 0, 0, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+    color: #840000;
+    text-align: start;
+}
+
+.professional p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.professional .bolded {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-style: normal;
+}
+
+.back_line2 {
+    position: absolute;
+    top: 2153px;
+    z-index: -1;
+    left: 240px;
+}
+
+.cv-img {
+    position: absolute;
+    top: 2500px;
+    left: 504px;
+}
+
+.cv-img:hover {
+
+    background: #8400004d;
+    color: #840000;
+    border-radius: 9px;
+}
+
+
+.linkedin {
+    position: absolute;
+    top: 2595px;
+    left: 362px;
+    padding: 25px;
+    border-radius: 27px;
+    background-color: rgba(132, 0, 0, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.linkedin a img {
+    position: relative;
+    left: 3px;
+}
+
+
+.github {
+    position: absolute;
+    top: 2595px;
+    left: 594px;
+    padding: 20px;
+    border-radius: 27px;
+    background-color: rgba(132, 0, 0, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.contact {
+    position: relative;
+    top: 1970px;
+    left: 21px;
+    padding: 20px 50px 40px 190px;
+    /* box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1); */
+    color: #840000;
+    text-align: start;
+    list-style: none;
+}
+
+.contact .contact-email {
+    position: absolute;
+    top: 109px;
+    left: 120px;
+    color: #840000;
+    font-size: 17px;
+}
+
+.contact .contact-phone {
+    position: absolute;
+    top: 172px;
+    left: 146px;
+    color: #840000;
+    font-size: 17px;
+}
