@@ -11,6 +11,15 @@ html {
     font-size: 11pt;
     text-align: center;
 
+    scroll-behavior: smooth;
+
+}
+
+.bolded {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-style: normal;
 }
 
 div.mainpage {
@@ -97,6 +106,7 @@ header ul li a {
     font-size: 25px;
     padding: 8px 15px;
     border-radius: 25px;
+    
 }
 
 header ul li a:hover {
@@ -556,7 +566,6 @@ header ul li a:hover {
     top: 109px;
     left: 120px;
     color: #840000;
-    font-size: 17px;
 }
 
 .contact .contact-phone {
@@ -564,5 +573,100 @@ header ul li a:hover {
     top: 172px;
     left: 146px;
     color: #840000;
-    font-size: 17px;
+    font-size: 15px;
+}
+
+
+.datasheet .datasheet-img  {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+
+.datasheet .altium  {
+    position: absolute;
+    top: 2820px;
+    left: 492px;
+}
+
+.datasheet .kicad  {
+    position: absolute;
+    top: 2824px;
+    left: 609px;
+}
+
+.datasheet .arduino  {
+    position: absolute;
+    top: 2824px;
+    left: 707px;
+}
+
+.datasheet .esp  {
+    position: absolute;
+    top: 2823px;
+    left: 800px;
+}
+
+.datasheet .cpp  {
+    position: absolute;
+    top: 2819px;
+    left: 874px;
+}
+
+.datasheet .python  {
+    position: absolute;
+    top: 2820px;
+    left: 947px;
+}
+.datasheet .riscv  {
+    position: absolute;
+    top: 2879px;
+    left: 573px;
+}
+
+.datasheet .arm  {
+    position: absolute;
+    top: 2889px;
+    left: 644px;
+}
+
+.datasheet .linux  {
+    position: absolute;
+    top: 2875px;
+    left: 741px;
+}
+
+.datasheet .raspberry  {
+    position: absolute;
+    top: 2876px;
+    left: 804px;
+}
+
+
+.datasheet .fusion360{
+    position: absolute;
+    top: 2880px;
+    left: 878px;
+}
+
+.datasheet .datasheet-text  {
+    color: #840000;
+    font-size: 18px;
+}
+
+.datasheet .datasheet-text .title {
+    position: absolute;
+    top: 3001px;
+    left: 516px;
+}
+
+.datasheet .datasheet-text .date {
+    position: absolute;
+    top: 3040px;
+    left: 619px;
+}
+
+.datasheet .datasheet-text .rev {
+    position: absolute;
+    top: 3038px;
+    left: 936px;
 }
